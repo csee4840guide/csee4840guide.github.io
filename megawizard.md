@@ -52,6 +52,6 @@ You can find the specification for Hex files on [Wikipedia](https://en.wikipedia
 
 The Cyclone II has a handful of 9-bit by 9-bit multipliers. Two of these hard
 multipliers can also be chained to form an 18x18 bit multipler. You can find
-the multiplier megafunction under "Arithmetic" -> "LPM\_MULT". You can specify
+the multiplier megafunction under <br/> "Arithmetic" -> "LPM\_MULT". You can specify
 any input or output width, but this guide advises against choosing any input
 width larger than 18 bits.

@@ -244,7 +244,7 @@ you wanted to silence warnings between 60 ns and 80 ns...
 ```tcl
 run 60 ns
 set NumericStdNoWarnings 1
-run 80 ns
+run 20 ns
 set NumericStdNoWarnings 0
 run 100 ns
 ```

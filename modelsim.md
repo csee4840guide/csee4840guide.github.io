@@ -249,6 +249,13 @@ set NumericStdNoWarnings 0
 run 100 ns
 ```
 
+## Re-running Simulation
+
+If you make a change and want to run the testbench again, you can do so without
+closing and reopening ModelSim. Simply hit the up arrow in the command window
+at the bottom. You should see a line appear that says something like
+`do run_simulation_script.do`. Hit enter, and the simulation will run again.
+
 ## General Advice for Debugging via Simulation
 
 Debugging hardware is a difficult and time-consuming process. Expect to spend

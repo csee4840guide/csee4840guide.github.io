@@ -25,11 +25,9 @@ generate three output clocks of different phases and frequencies.
 
 ## RAMs and ROMs
 
-The M4K block RAM on the Cyclone II can be used to create RAMs and ROMs.
+The M10K block RAM on the Cyclone V can be used to create RAMs and ROMs.
 This is much more efficient than trying to create equivalent units in VHDL,
-as that will cause a lot of logic elements to be used. The Cyclone II has
-a decent amount of block RAM, so try to use that instead of SRAM for your
-hardware's memory needs, freeing the SRAM to be used by the NIOS II processor.
+as that will cause a lot of logic elements to be used.
 
 You can find the RAM and ROM megafunctions in MegaWizard in the "Memory Compiler"
 folder. The synchronous RAMs and ROMs will add a flip-flop to all of the inputs
